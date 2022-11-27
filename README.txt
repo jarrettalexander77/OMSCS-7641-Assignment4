@@ -30,6 +30,9 @@ These were modified heavily as testing went on. The final state should represent
 
 These notebooks will generate all charts used in the report as well. They will be saved to your computer as you run them. If you want to generate all charts, you will have to update the size value.
 
+When first working on these problems, I found that there was an issue with importing the mdptoolbox. I believe it was a local python setup issue. I instead had to download the source code and use it in my project. If you are unable to run the code using the pypip package,
+you can move the source code to the repo to run it.
+
 # Notes
 Some tests exist in the notebook but they do not exist in the final paper. There are evaluations of policies based on the different input parameters to the problem that are not shown in the paper. These were useful for debugging issues with the policies.
 Sometimes the charts would not represent the policies accurately. However, these were omitted from the paper due to space. There are also 3 other heatmaps that were generated but those were not added either because they did not reveal very much about the problem.
